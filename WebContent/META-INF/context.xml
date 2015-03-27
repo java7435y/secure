@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Context>
+
+<Context>
+  <Resource
+            name="jdbc/db"
+            auth="Container"
+            type="javax.sql.DataSource"
+            username="b11ws11"
+            password="b11ws11"
+            driverClassName="oracle.jdbc.driver.OracleDriver"
+            url="jdbc:oracle:thin:@oracle-srv:1521:orcl"
+            maxActive="2"
+            maxIdle="2"
+            maxWait="5000"
+            />
+</Context>
